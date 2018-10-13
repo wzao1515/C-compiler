@@ -1,4 +1,4 @@
-# bit-minic-compiler
+### C language compiler
 A C compiler framework in Java
 
-From BIT Course
+Inspired brom BIT Course
