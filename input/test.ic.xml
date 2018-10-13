@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IC name="./input/test.tree.xml">
+  <functions>
+    <function>
+      <quaternion	 addr	="1" op	="int" arg1	="i" arg2	="" result	=""/>
+      <quaternion	 addr	="2" op	="int" arg1	="j" arg2	="" result	=""/>
+      <quaternion	 addr	="3" op	="int" arg1	="k" arg2	="" result	=""/>
+      <quaternion	 addr	="4" op	="=" arg1	="i" arg2	="0" result	=""/>
+      <quaternion addr	="5" op	="&lt;" arg1	="i" arg2	="10" result	="T1" label	="L1"/>
+      <quaternion	 addr	="6" op	="jf" arg1	="T1" arg2	="" result	="L2"/>
+      <quaternion	 addr	="7" op	="&gt;" arg1	="i" arg2	="5" result	="T2"/>
+      <quaternion	 addr	="8" op	="jf" arg1	="T2" arg2	="" result	="L3"/>
+      <quaternion	 addr	="9" op	="+" arg1	="i" arg2	="1" result	="T3"/>
+      <quaternion	 addr	="10" op	="=" arg1	="i" arg2	="T3" result	=""/>
+      <quaternion	 addr	="11" op="" arg1="" arg2="" result="" label="L3"/>
+      <quaternion	 addr	="12" op	="+" arg1	="i" arg2	="1" result	="T4"/>
+      <quaternion	 addr	="13" op	="=" arg1	="i" arg2	="T4" result	=""/>
+      <quaternion	 addr	="14" op	="j" arg1="L1" arg2="" result=""/>
+      <quaternion	 addr	="15" op="" arg1="" arg2="" result="" label="L2"/>
+    </function>
+  </functions>
+</IC>
